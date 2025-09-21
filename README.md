@@ -30,6 +30,18 @@ A machine learning project to detect fraudulent credit card transactions using m
    - Log-loss & Brier Score for calibration  
 
 ## 📈 Results
+
+### Confusion Matrix
+![Confusion Matrix](results/confusion_matrix.png)
+
+### Precision-Recall Curve
+![PR AUC](results/PR_AUC.png)
+
+### ROC Curve
+![ROC AUC](results/ROC_AUC.png)
+
+---
+
 - On **balanced dataset**:  
   - All models achieved strong fraud detection performance.  
   - Demonstrated effectiveness of resampling in highly imbalanced problems.  
