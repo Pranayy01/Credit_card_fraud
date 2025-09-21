@@ -1,8 +1,10 @@
+git checkout main
+git pull origin main
+
+cat > requirements.txt <<'EOF'
 streamlit==1.49.1
-numpy>=2.1.0,<2.4.0
-pandas
-scikit-learn
-matplotlib
-seaborn
-joblib
-tensorflow==2.15.0
+EOF
+
+git add requirements.txt
+git commit -m "Test: minimal requirements (streamlit only)"
+git push origin main
